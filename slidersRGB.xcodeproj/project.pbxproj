@@ -13,6 +13,7 @@
 		CDB6C820269B14CA007432C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB6C81E269B14CA007432C8 /* Main.storyboard */; };
 		CDB6C822269B14CC007432C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB6C821269B14CC007432C8 /* Assets.xcassets */; };
 		CDB6C825269B14CC007432C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB6C823269B14CC007432C8 /* LaunchScreen.storyboard */; };
+		CDB6C82D269B2D13007432C8 /* slidersRGB in Resources */ = {isa = PBXBuildFile; fileRef = CDB6C82C269B2D13007432C8 /* slidersRGB */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CDB6C821269B14CC007432C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB6C824269B14CC007432C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDB6C826269B14CC007432C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB6C82C269B2D13007432C8 /* slidersRGB */ = {isa = PBXFileReference; lastKnownFileType = folder; name = slidersRGB; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				CDB6C817269B14CA007432C8 /* slidersRGB */,
+				CDB6C82C269B2D13007432C8 /* slidersRGB */,
 				CDB6C816269B14CA007432C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 				CDB6C825269B14CC007432C8 /* LaunchScreen.storyboard in Resources */,
 				CDB6C822269B14CC007432C8 /* Assets.xcassets in Resources */,
 				CDB6C820269B14CA007432C8 /* Main.storyboard in Resources */,
+				CDB6C82D269B2D13007432C8 /* slidersRGB in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = grekov.Anton.slidersRGB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = grekov.Anton.slidersRGB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
